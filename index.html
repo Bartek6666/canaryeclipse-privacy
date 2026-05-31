@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="robots" content="index, follow">
+  <title>Privacy Policy — Canary Eclipse</title>
+  <meta name="description" content="Privacy policy for the Canary Eclipse Android app — partial solar eclipse 12 August 2026, Canary Islands.">
+  <style>
+    :root {
+      --bg: #0F131B;
+      --surface: #1C2028;
+      --border: rgba(255, 255, 255, 0.10);
+      --text: #DFE2EE;
+      --muted: #9E8F78;
+      --accent: #FFBA20;
+      --accent-soft: #FFDCA1;
+      --ink: #0F131B;
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+            "Helvetica Neue", Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    header {
+      border-bottom: 1px solid var(--border);
+      padding: 20px 24px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 18px;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      color: var(--accent-soft);
+    }
+    .lang-switcher {
+      display: flex;
+      gap: 8px;
+    }
+    .lang-switcher button {
+      font: inherit;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      background: transparent;
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 8px 12px;
+      cursor: pointer;
+      transition: background 0.15s, color 0.15s, border-color 0.15s;
+    }
+    .lang-switcher button:hover {
+      border-color: var(--accent);
+    }
+    .lang-switcher button[aria-pressed="true"] {
+      background: var(--accent);
+      color: var(--ink);
+      border-color: var(--accent);
+    }
+    .lang-switcher button:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+    }
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 32px 24px 64px;
+    }
+    article h2 {
+      font-size: 28px;
+      font-weight: 700;
+      margin: 0 0 8px;
+      letter-spacing: -0.01em;
+    }
+    article .meta {
+      color: var(--muted);
+      font-size: 14px;
+      margin: 0 0 28px;
+    }
+    article h3 {
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--accent);
+      margin: 32px 0 12px;
+      letter-spacing: 0.01em;
+    }
+    article p { margin: 0 0 16px; }
+    article ul {
+      margin: 0 0 16px;
+      padding-left: 22px;
+    }
+    article ul li { margin-bottom: 8px; }
+    article dl {
+      margin: 0 0 16px;
+      padding: 0;
+    }
+    article dt {
+      font-weight: 600;
+      color: var(--accent-soft);
+      margin-top: 14px;
+    }
+    article dt:first-child { margin-top: 0; }
+    article dd {
+      margin: 4px 0 0;
+      padding: 0;
+    }
+    .footnote {
+      font-size: 14px;
+      color: var(--muted);
+      border-left: 2px solid var(--border);
+      padding-left: 12px;
+      margin-top: 16px;
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom: 1px solid rgba(255, 186, 32, 0.4);
+    }
+    a:hover { border-bottom-color: var(--accent); }
+    a:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+      border-radius: 2px;
+    }
+    footer {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 24px 24px 48px;
+      color: var(--muted);
+      font-size: 13px;
+      text-align: center;
+      border-top: 1px solid var(--border);
+    }
+    @media (max-width: 480px) {
+      article h2 { font-size: 24px; }
+      article h3 { font-size: 17px; }
+      header { padding: 16px; }
+      main { padding: 24px 16px 48px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Canary Eclipse</h1>
+    <nav class="lang-switcher" aria-label="Language">
+      <button type="button" data-lang="en" aria-pressed="true">EN</button>
+      <button type="button" data-lang="pl" aria-pressed="false">PL</button>
+      <button type="button" data-lang="es" aria-pressed="false">ES</button>
+      <button type="button" data-lang="de" aria-pressed="false">DE</button>
+    </nav>
+  </header>
+  <main>
+
+    <!-- ─────────────────────────── EN ─────────────────────────── -->
+    <article lang="en" data-lang="en">
+      <h2>Privacy policy</h2>
+      <p class="meta">Last updated: 2026-05-24 · Version 1.0.0</p>
+      <p>Canary Eclipse is an informational app for observers of the partial solar eclipse on 12 August 2026 in the Canary Islands. The text below explains what data is processed and how.</p>
+
+      <h3>What we do NOT collect</h3>
+      <ul>
+        <li>No account or personally identifying data is required.</li>
+        <li>No analytics tools are used (Google Analytics, Firebase Analytics or similar).</li>
+        <li>No third-party marketing SDKs are used, and no data is shared with advertisers.</li>
+        <li>Your location history and biometric data are never collected.</li>
+      </ul>
+
+      <h3>Data processed locally</h3>
+      <p>The following data is processed only on your device and never leaves it:</p>
+      <dl>
+        <dt>GPS location</dt>
+        <dd>After you grant the system permission — used to compute local eclipse times and AR module orientation. Your position is not sent to any server.</dd>
+        <dt>App preferences</dt>
+        <dd>Selected location, language, notification settings and onboarding status — stored in the app&rsquo;s local storage (AsyncStorage).</dd>
+        <dt>Sensor data</dt>
+        <dd>Compass and accelerometer — used solely to project the Sun&rsquo;s position in the AR module. Never stored or transmitted.</dd>
+      </dl>
+
+      <h3>External services</h3>
+      <dl>
+        <dt>Google Places</dt>
+        <dd>When you search for a place outside the recommended list, the query (search text, Canary Islands geographic rectangle) is sent to Google. No user identifiers are transmitted.</dd>
+        <dt>MapTiler / MapLibre</dt>
+        <dd>Map tiles are loaded from MapTiler servers. Requests contain only the coordinates of the displayed area.</dd>
+      </dl>
+
+      <h3>Permissions</h3>
+      <dl>
+        <dt>Location</dt>
+        <dd>Computing local eclipse times and the distance from your selected location.</dd>
+        <dt>Camera</dt>
+        <dd>Showing the Sun&rsquo;s position in the AR module. The image is neither stored nor transmitted.</dd>
+        <dt>Photo gallery</dt>
+        <dd>Saving photos taken from within the AR module.</dd>
+        <dt>Notifications</dt>
+        <dd>Local reminders about the upcoming eclipse, if enabled in settings.</dd>
+        <dt>Motion sensors</dt>
+        <dd>Operating the compass and accelerometer in the AR module.</dd>
+      </dl>
+      <p class="footnote">You can revoke any of these permissions at any time in your device&rsquo;s system settings.</p>
+
+      <h3>Notifications</h3>
+      <p>Eclipse reminders are local — scheduled on the device, not delivered via push servers. You can enable or disable them on the &ldquo;Settings&rdquo; screen.</p>
+
+      <h3>Children</h3>
+      <p>The app is not directed at children under 13 and does not knowingly collect their data.</p>
+
+      <h3>Contact</h3>
+      <p>For privacy-related questions, write to us at: <a href="mailto:contact@canaryeclipse.com">contact@canaryeclipse.com</a>.</p>
+
+      <h3>Changes to this policy</h3>
+      <p>When material changes are made, an updated version will be published in the app together with the new revision date.</p>
+    </article>
+
+    <!-- ─────────────────────────── PL ─────────────────────────── -->
+    <article lang="pl" data-lang="pl" hidden>
+      <h2>Polityka prywatności</h2>
+      <p class="meta">Aktualizacja: 2026-05-24 · Wersja 1.0.0</p>
+      <p>Canary Eclipse to aplikacja informacyjna dla obserwatorów częściowego zaćmienia Słońca 12 sierpnia 2026 r. na Wyspach Kanaryjskich. Poniżej opisujemy, jakie dane są przetwarzane i w jaki sposób.</p>
+
+      <h3>Czego NIE zbieramy</h3>
+      <ul>
+        <li>Nie wymagamy konta ani danych identyfikujących użytkownika.</li>
+        <li>Nie używamy analityki (Google Analytics, Firebase Analytics ani podobnych).</li>
+        <li>Nie używamy zewnętrznych SDK marketingowych i nie udostępniamy danych reklamodawcom.</li>
+        <li>Nie zbieramy historii Twoich lokalizacji ani danych biometrycznych.</li>
+      </ul>
+
+      <h3>Dane przetwarzane lokalnie</h3>
+      <p>Następujące dane są przetwarzane wyłącznie na Twoim urządzeniu i nie opuszczają go:</p>
+      <dl>
+        <dt>Lokalizacja GPS</dt>
+        <dd>Po wyrażeniu zgody w systemie — używana do obliczenia lokalnych czasów zaćmienia oraz orientacji modułu AR. Pozycja nie jest wysyłana na żaden serwer.</dd>
+        <dt>Preferencje aplikacji</dt>
+        <dd>Wybrana lokalizacja, język, ustawienia powiadomień i status onboardingu — przechowywane w lokalnej pamięci aplikacji (AsyncStorage).</dd>
+        <dt>Dane z czujników</dt>
+        <dd>Kompas i akcelerometr — używane wyłącznie do projekcji pozycji Słońca w module AR. Nie są zapisywane ani wysyłane.</dd>
+      </dl>
+
+      <h3>Usługi zewnętrzne</h3>
+      <dl>
+        <dt>Google Places</dt>
+        <dd>Gdy wyszukujesz miejsce spoza listy rekomendowanych lokalizacji, zapytanie (tekst wyszukiwania, prostokąt geograficzny Wysp Kanaryjskich) trafia do Google. Nie wysyłamy żadnych identyfikatorów użytkownika.</dd>
+        <dt>MapTiler / MapLibre</dt>
+        <dd>Kafelki mapy pobierane są z serwerów MapTiler. Zapytania zawierają wyłącznie współrzędne wyświetlanego obszaru.</dd>
+      </dl>
+
+      <h3>Uprawnienia</h3>
+      <dl>
+        <dt>Lokalizacja</dt>
+        <dd>Obliczanie lokalnych czasów zaćmienia i odległości od wybranego miejsca.</dd>
+        <dt>Kamera</dt>
+        <dd>Wyświetlanie pozycji Słońca w module AR. Obraz nie jest zapisywany ani transmitowany.</dd>
+        <dt>Galeria zdjęć</dt>
+        <dd>Zapisywanie zdjęć zrobionych z poziomu modułu AR.</dd>
+        <dt>Powiadomienia</dt>
+        <dd>Lokalne przypomnienia o nadchodzącym zaćmieniu, jeśli włączone w ustawieniach.</dd>
+        <dt>Sensory ruchu</dt>
+        <dd>Działanie kompasu i akcelerometru w module AR.</dd>
+      </dl>
+      <p class="footnote">Wszystkie uprawnienia możesz w dowolnym momencie cofnąć w ustawieniach systemowych urządzenia.</p>
+
+      <h3>Powiadomienia</h3>
+      <p>Powiadomienia o nadchodzącym zaćmieniu są lokalne — planowane na urządzeniu, nie wysyłane przez serwer push. Możesz je włączyć lub wyłączyć na ekranie &bdquo;Ustawienia&rdquo;.</p>
+
+      <h3>Dzieci</h3>
+      <p>Aplikacja nie jest skierowana do dzieci poniżej 13. roku życia i nie zbiera świadomie ich danych.</p>
+
+      <h3>Kontakt</h3>
+      <p>Pytania dotyczące prywatności możesz kierować na adres: <a href="mailto:contact@canaryeclipse.com">contact@canaryeclipse.com</a>.</p>
+
+      <h3>Zmiany w polityce</h3>
+      <p>W przypadku istotnych zmian polityki nowa wersja zostanie opublikowana w aplikacji wraz z datą aktualizacji.</p>
+    </article>
+
+    <!-- ─────────────────────────── ES ─────────────────────────── -->
+    <article lang="es" data-lang="es" hidden>
+      <h2>Política de privacidad</h2>
+      <p class="meta">Última actualización: 2026-05-24 · Versión 1.0.0</p>
+      <p>Canary Eclipse es una aplicación informativa para observadores del eclipse parcial de Sol del 12 de agosto de 2026 en las Islas Canarias. A continuación se describe qué datos se procesan y cómo.</p>
+
+      <h3>Qué NO recopilamos</h3>
+      <ul>
+        <li>No requerimos cuenta ni datos que identifiquen al usuario.</li>
+        <li>No utilizamos herramientas de analítica (Google Analytics, Firebase Analytics o similares).</li>
+        <li>No utilizamos SDK de marketing de terceros ni compartimos datos con anunciantes.</li>
+        <li>No recopilamos tu historial de ubicaciones ni datos biométricos.</li>
+      </ul>
+
+      <h3>Datos procesados localmente</h3>
+      <p>Los siguientes datos se procesan únicamente en tu dispositivo y no salen de él:</p>
+      <dl>
+        <dt>Ubicación GPS</dt>
+        <dd>Tras conceder el permiso del sistema — se utiliza para calcular las horas locales del eclipse y la orientación del módulo AR. Tu posición no se envía a ningún servidor.</dd>
+        <dt>Preferencias de la app</dt>
+        <dd>Ubicación seleccionada, idioma, ajustes de notificaciones y estado del onboarding — guardados en la memoria local de la app (AsyncStorage).</dd>
+        <dt>Datos de sensores</dt>
+        <dd>Brújula y acelerómetro — usados exclusivamente para proyectar la posición del Sol en el módulo AR. Nunca se almacenan ni se envían.</dd>
+      </dl>
+
+      <h3>Servicios externos</h3>
+      <dl>
+        <dt>Google Places</dt>
+        <dd>Cuando buscas un lugar fuera de la lista recomendada, la consulta (texto de búsqueda, rectángulo geográfico de Canarias) se envía a Google. No se transmiten identificadores de usuario.</dd>
+        <dt>MapTiler / MapLibre</dt>
+        <dd>Los teselas del mapa se cargan desde los servidores de MapTiler. Las solicitudes contienen únicamente las coordenadas del área mostrada.</dd>
+      </dl>
+
+      <h3>Permisos</h3>
+      <dl>
+        <dt>Ubicación</dt>
+        <dd>Cálculo de las horas locales del eclipse y de la distancia hasta la ubicación elegida.</dd>
+        <dt>Cámara</dt>
+        <dd>Mostrar la posición del Sol en el módulo AR. La imagen no se almacena ni se transmite.</dd>
+        <dt>Galería de fotos</dt>
+        <dd>Guardar las fotos tomadas desde el módulo AR.</dd>
+        <dt>Notificaciones</dt>
+        <dd>Recordatorios locales del eclipse, si están activados en los ajustes.</dd>
+        <dt>Sensores de movimiento</dt>
+        <dd>Funcionamiento de la brújula y el acelerómetro en el módulo AR.</dd>
+      </dl>
+      <p class="footnote">Puedes revocar cualquiera de estos permisos en cualquier momento desde los ajustes del sistema de tu dispositivo.</p>
+
+      <h3>Notificaciones</h3>
+      <p>Las notificaciones del eclipse son locales — se programan en el dispositivo y no se envían mediante servidores push. Puedes activarlas o desactivarlas desde la pantalla &laquo;Ajustes&raquo;.</p>
+
+      <h3>Niños</h3>
+      <p>La aplicación no está dirigida a menores de 13 años y no recopila intencionadamente sus datos.</p>
+
+      <h3>Contacto</h3>
+      <p>Para preguntas sobre privacidad, escríbenos a: <a href="mailto:contact@canaryeclipse.com">contact@canaryeclipse.com</a>.</p>
+
+      <h3>Cambios en la política</h3>
+      <p>En caso de cambios relevantes, se publicará una nueva versión en la app junto con la fecha de actualización.</p>
+    </article>
+
+    <!-- ─────────────────────────── DE ─────────────────────────── -->
+    <article lang="de" data-lang="de" hidden>
+      <h2>Datenschutzrichtlinie</h2>
+      <p class="meta">Letzte Aktualisierung: 2026-05-24 · Version 1.0.0</p>
+      <p>Canary Eclipse ist eine Informations-App für Beobachter der partiellen Sonnenfinsternis am 12. August 2026 auf den Kanarischen Inseln. Im Folgenden wird beschrieben, welche Daten verarbeitet werden und wie.</p>
+
+      <h3>Was wir NICHT erfassen</h3>
+      <ul>
+        <li>Wir verlangen kein Konto und keine identifizierenden Nutzerdaten.</li>
+        <li>Wir verwenden keine Analyse-Tools (Google Analytics, Firebase Analytics oder Ähnliches).</li>
+        <li>Wir setzen keine Marketing-SDKs von Drittanbietern ein und geben keine Daten an Werbetreibende weiter.</li>
+        <li>Wir erfassen weder deinen Standortverlauf noch biometrische Daten.</li>
+      </ul>
+
+      <h3>Lokal verarbeitete Daten</h3>
+      <p>Folgende Daten werden ausschließlich auf deinem Gerät verarbeitet und verlassen es nicht:</p>
+      <dl>
+        <dt>GPS-Standort</dt>
+        <dd>Nach Erteilung der Systemberechtigung — verwendet zur Berechnung der lokalen Finsterniszeiten und der Ausrichtung des AR-Moduls. Deine Position wird an keinen Server gesendet.</dd>
+        <dt>App-Einstellungen</dt>
+        <dd>Ausgewählter Ort, Sprache, Benachrichtigungseinstellungen und Onboarding-Status — gespeichert im lokalen App-Speicher (AsyncStorage).</dd>
+        <dt>Sensordaten</dt>
+        <dd>Kompass und Beschleunigungssensor — ausschließlich für die Projektion der Sonnenposition im AR-Modul. Sie werden weder gespeichert noch übertragen.</dd>
+      </dl>
+
+      <h3>Externe Dienste</h3>
+      <dl>
+        <dt>Google Places</dt>
+        <dd>Wenn du nach einem Ort außerhalb der empfohlenen Liste suchst, wird die Anfrage (Suchtext, geografisches Rechteck der Kanarischen Inseln) an Google gesendet. Es werden keine Nutzer-IDs übertragen.</dd>
+        <dt>MapTiler / MapLibre</dt>
+        <dd>Kartenkacheln werden von den Servern von MapTiler geladen. Anfragen enthalten nur die Koordinaten des angezeigten Bereichs.</dd>
+      </dl>
+
+      <h3>Berechtigungen</h3>
+      <dl>
+        <dt>Standort</dt>
+        <dd>Berechnung der lokalen Finsterniszeiten und der Entfernung zum ausgewählten Ort.</dd>
+        <dt>Kamera</dt>
+        <dd>Anzeige der Sonnenposition im AR-Modul. Das Bild wird weder gespeichert noch übertragen.</dd>
+        <dt>Fotogalerie</dt>
+        <dd>Speichern von Fotos, die aus dem AR-Modul aufgenommen wurden.</dd>
+        <dt>Benachrichtigungen</dt>
+        <dd>Lokale Erinnerungen an die bevorstehende Finsternis, sofern in den Einstellungen aktiviert.</dd>
+        <dt>Bewegungssensoren</dt>
+        <dd>Betrieb des Kompasses und des Beschleunigungssensors im AR-Modul.</dd>
+      </dl>
+      <p class="footnote">Du kannst alle Berechtigungen jederzeit in den Systemeinstellungen deines Geräts widerrufen.</p>
+
+      <h3>Benachrichtigungen</h3>
+      <p>Finsternis-Erinnerungen sind lokal — sie werden auf dem Gerät geplant und nicht über Push-Server zugestellt. Du kannst sie im Bildschirm &bdquo;Einstellungen&ldquo; ein- oder ausschalten.</p>
+
+      <h3>Kinder</h3>
+      <p>Die App richtet sich nicht an Kinder unter 13 Jahren und erfasst deren Daten nicht wissentlich.</p>
+
+      <h3>Kontakt</h3>
+      <p>Bei Fragen zum Datenschutz schreibe uns bitte an: <a href="mailto:contact@canaryeclipse.com">contact@canaryeclipse.com</a>.</p>
+
+      <h3>Änderungen der Richtlinie</h3>
+      <p>Bei wesentlichen Änderungen wird eine neue Version mit dem aktualisierten Datum in der App veröffentlicht.</p>
+    </article>
+
+  </main>
+  <footer>
+    <a href="https://canaryeclipse.com">canaryeclipse.com</a>
+  </footer>
+  <script>
+    (function () {
+      var SUPPORTED = ['en', 'pl', 'es', 'de'];
+      var STORAGE_KEY = 'canaryeclipse-privacy-lang';
+      var buttons = document.querySelectorAll('.lang-switcher button');
+      var articles = document.querySelectorAll('main article');
+
+      function setLang(lang) {
+        if (SUPPORTED.indexOf(lang) === -1) return;
+        document.documentElement.lang = lang;
+        articles.forEach(function (a) { a.hidden = a.dataset.lang !== lang; });
+        buttons.forEach(function (b) {
+          b.setAttribute('aria-pressed', String(b.dataset.lang === lang));
+        });
+        try { localStorage.setItem(STORAGE_KEY, lang); } catch (_) {}
+      }
+
+      buttons.forEach(function (b) {
+        b.addEventListener('click', function () { setLang(b.dataset.lang); });
+      });
+
+      try {
+        var stored = localStorage.getItem(STORAGE_KEY);
+        if (stored) setLang(stored);
+      } catch (_) {}
+    })();
+  </script>
+</body>
+</html>
